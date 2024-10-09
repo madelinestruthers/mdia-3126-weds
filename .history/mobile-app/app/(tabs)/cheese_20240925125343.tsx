@@ -1,9 +1,9 @@
-import { Text, View, Pressable, StyleSheet } from 'react-native';
+import { Text, View, Pressable } from 'react-native';
 import { Link } from 'expo-router';
 
 export default function Page() {
   return (
-    <View style={styles.pageTitle}>
+    <View>
   <Text className="border-red-700 border-2">this is a page about chez</Text>
   <Link href="/" asChild>
       <Pressable>
@@ -13,11 +13,3 @@ export default function Page() {
   </View>
   )
 }
-
-const styles = StyleSheet.create({
-  pageTitle: {
-    borderColor: 'blue',
-    borderWidth: 2,
-    borderStyle: 'solid'
-  },
-})

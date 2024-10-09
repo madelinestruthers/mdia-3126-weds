@@ -16,6 +16,7 @@ export default function Page() {
 
 const styles = StyleSheet.create({
   pageTitle: {
+   
     borderColor: 'blue',
     borderWidth: 2,
     borderStyle: 'solid'
