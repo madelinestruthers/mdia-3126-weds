@@ -3,7 +3,7 @@ import { Link } from 'expo-router';
 
 export default function Page() {
   return (
-    <View style={styles.pageTitle}>
+    <View className="m-2">
   <Text className="border-red-700 border-2">this is a page about chez</Text>
   <Link href="/" asChild>
       <Pressable>
@@ -15,9 +15,7 @@ export default function Page() {
 }
 
 const styles = StyleSheet.create({
-  pageTitle: {
-    borderColor: 'blue',
-    borderWidth: 2,
-    borderStyle: 'solid'
-  },
+  cheesePage: {
+    fontFamily: 'poppins'
+  }
 })
